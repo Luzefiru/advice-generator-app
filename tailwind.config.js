@@ -4,11 +4,14 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        text: '#cee3e9',
-        'on-button': '#1f2632',
+        'on-foreground': '#cee3e9',
+        background: '#1f2632',
         primary: '#52ffa8',
-        foreground: '#4e5d73',
-        background: '#323a49',
+        accent: '#4e5d73',
+        foreground: '#323a49',
+      },
+      fontFamily: {
+        sans: ['Manrope', 'ui-sans-serif'],
       },
     },
   },
