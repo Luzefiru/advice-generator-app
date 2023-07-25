@@ -72,7 +72,7 @@ I can instead simply do:
 
 ```css
 body {
-  height: 100vh;
+  min-height: 100vh;
 }
 ```
 
