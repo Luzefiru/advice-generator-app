@@ -1,6 +1,6 @@
 import axios from 'axios';
 import { useState, useEffect } from 'react';
-const baseUrl = '	https://api.adviceslip.com/advice';
+const baseUrl = 'https://api.adviceslip.com/advice';
 
 const useQuote = () => {
   const [id, setId] = useState('???');
